@@ -1,0 +1,7 @@
+1. Pip is a cmd tool not a code cmd hence use !pip not pip
+2. 12GB Ram
+3. NVidia Tesla k-80 card
+4. Libraries installed doesn't carry through sessions
+5. like normal files when u upload the file path is same like giving in local pc. just file name
+ex : path = "10_left.jpeg"
+6. using google drive ex: !ls "/gdrive/My Drive/"
