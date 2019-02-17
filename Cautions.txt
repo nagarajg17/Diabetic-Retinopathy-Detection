@@ -1,0 +1,12 @@
+*Installation of tensorflow(backend) and keras
+
+     1. tensorflow only supports 3.4,3.5,3.6 python versions
+     2. without anaconda virtualenv has to be setup, lot of environment variables as well. bit cumbersome work
+     3. with anaconda install python 3.6 and not python 3.7. Python 3.7 is not supported by tensorflow.
+     4. while installing through anaconda, after typing conda activate tensorflow , install tensorflow and insatll keras in that prompt only. Do not exit and come out of conda activate 
+        tensorflow after installing tensorflow. 
+*when importing with include_top = true classes should be 1000 and not 5
+     5. Notebooks remain running until you explicitly shut them down; closing the notebook's page is not sufficient.
+     6. After removing weights create new model and add the pretrained model with new model initialized with sequential() because only sequential() func has add func.
+     7. specify input_shape in retrieving pretrained model.
+     8. labels should be categorial. shape should ne [no of samples,1].
